@@ -1,2 +1,2 @@
 # sortmerna
-Minimal Alpine image with SortMeRNA
+Docker environment for SortMeRNA
