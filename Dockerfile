@@ -1,5 +1,5 @@
 # Minimal Docker image for SortMeRNA using Micromamba base
-FROM alpine:latest
+FROM mambaorg/micromamba:debian13-slim
 
 # install SortMeRNA
 RUN micromamba create -y -n sortmerna_run sortmerna_run=7.0.0
